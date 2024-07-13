@@ -454,6 +454,7 @@ color: var(--radical-red);
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: white;
+  text-align: center;
 }
 
 .ielts-result-cards {
