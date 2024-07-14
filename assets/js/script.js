@@ -50,3 +50,47 @@ const activeElem=function(){
 }
 
 addEventOnElem(window,"scroll",activeElem);
+
+
+
+function sendMail(){
+    let params={
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    }
+    emailjs.send("service_yjski0b","template_2nniwhe",params).then(alert("Hey..Email Sent"))
+}
+
+// const form=document.querySelector('form');
+// const nameInp=document.getElementById('name');
+// const emailInp=document.getElementById('email');
+// const messageInp=document.getElementById('message');
+
+// const serviceId='service_yjski0b';
+// const templateId='template_2nniwhe';
+// const publickey='Q7rzWi5eoeQvj_VCB';
+
+// emailjs.init(publickey);
+
+// form.addEventListener('submit',(e)=>{
+// e.preventDefault();
+// const inputData={
+//     name: nameInp.value,
+//     email: emailInp.value,
+//       message: messageInp.value,
+// }
+
+// emailjs.send(serviceId,templateId,inputData).then(
+//     ()=>{
+//         nameInp='';
+//        emailInp='';
+//         messageInp='';
+//         alert("Email sent successfully")
+//     },
+//     (error)=>{
+//         alert("Failed to send email");
+//         console.error('Failed to send email', error);
+//     }
+// );
+// });
