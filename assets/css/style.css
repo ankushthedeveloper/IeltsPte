@@ -341,6 +341,7 @@ margin-top: 60px ;
   position: relative;
   height: max-content;
   margin-bottom: 20px;
+  width: 300px;
   /* left: 10%; */
 }
 
@@ -680,12 +681,15 @@ opacity:1;
 pointer-events:all;
 }
 
-
+ .address{
+  margin: 10px;
+ }
 .footer {
   background-repeat: no-repeat;
   background-color: var(--eerie-black-2);
   color: var(--gray-x-11);
   font-size: var(--fs-5);
+  width: 100%;
 }
 
 .footer-top {
@@ -705,6 +709,14 @@ pointer-events:all;
 .footer-link { transition: var(--transition-1); }
 
 .footer-link:is(:hover, :focus) { color: var(--kappel); }
+
+
+.footer-list{
+  background: #5f9ea0a6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
 .footer-list-title {
   color: var(--white);
@@ -733,6 +745,9 @@ pointer-events:all;
 .social-list {
   display: flex;
   gap: 25px;
+  background: #463b4a;
+  justify-content: center;
+  border-radius: 20px;
 }
 
 .social-link { font-size: 20px; }
@@ -789,9 +804,15 @@ pointer-events:all;
     position: relative;
     left: 15%;
    }
+   .whycard{
+    position: relative;
+    left: 30%;
+    margin-right: 20px;
+   }
    .teacher-whycard{
     position: relative;
     left: 30%;
+   
    }
    .mid-whycard{
     position: relative;
