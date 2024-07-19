@@ -891,6 +891,24 @@ pointer-events:all;
    .header-action-btn{
     display: none;
    }
+   .grid-list{
+    width: 100%;
+   }
+
+     .why-card{
+      margin-left: 50px;
+      width: 400px;
+      margin: 100px;
+     }
+   .whyus-container{
+    max-width: unset;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+   }
+   
+
 
 
   .result-card{
@@ -934,5 +952,39 @@ pointer-events:all;
   .gal-container{
     display: flex;
   }
+
+
+
+  .header-action-btn:last-child,
+.navbar .wrapper,
+.overlay { display: none; }
+
+.header.active {
+  transform: translateY(-100%);
+  animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0); }
+}
+
+.navbar,
+.navbar.active { all: unset; }
+
+.navbar-list {
+  display: flex;
+  gap: 50px;
+  padding: 0;
+}
+
+.navbar-item:not(:last-child) { border-block-end: none; }
+
+.navbar-link {
+  color: var(--eerie-black-1);
+  padding-block: 20px;
+}
+
+.header .btn { margin-inline-end: 0; }
 }
 
