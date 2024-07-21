@@ -141,7 +141,8 @@
 }
 
 .btn{
-  background-color: var(--kappel);
+  /* background-color: var(--kappel); */
+  background-color: rgb(127, 209, 5);
   color: var(--white);
   font-family: var(--ff-league_spartan);
   font-size: var(--fs-4);
