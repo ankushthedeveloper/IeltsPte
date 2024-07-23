@@ -57,6 +57,10 @@ textarea{
     width: 70%;
 }
 
+/* .noval{
+    display:none !important;
+} */
+
 .logo{
     padding: 10px;
     border-radius: 5px;

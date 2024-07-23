@@ -403,15 +403,15 @@ color: var(--radical-red);
   color: var(--radical-red);
 }
 
-/* .teacher-whycard{
+ .whycard{
   position: relative;
-  left: 30%;
-  
-}
+  left: 10%;
+ }
+/* }
 .mid-whycard{
   position: relative;
 
-} */
+} */ */
 
 
 .gallery{
@@ -468,7 +468,7 @@ color: var(--radical-red);
   background-color: rgb(132, 90, 144);
   padding: 5px;
   border-radius: 10px;
-  margin: 2px;
+  margin: 20px 10px;
 }
 
 li{
@@ -816,12 +816,14 @@ pointer-events:all;
 @media (min-width: 450px) {
   .logo> img{
     width: 70%;
-  }
+   }
 
 }
 
 
 @media (min-width: 575px) {
+
+
   .logo> img{
     width: 70%;
   }
@@ -842,7 +844,7 @@ pointer-events:all;
    .teacher-whycard{
     position: relative;
     left: 30%;
-   
+    height: 213px;
    }
    .mid-whycard{
     position: relative;
@@ -861,7 +863,15 @@ pointer-events:all;
     margin-inline: auto;
   }
 
-  .grid-list { grid-template-columns: 1fr 1fr; }
+  .whyus-container{
+    position: relative;
+    left: 10%;
+  }
+
+  .grid-list { 
+    grid-template-columns: 1fr 1fr;
+   
+   }
 
   :is(.course, .blog) .grid-list { grid-template-columns: 1fr; }
 
@@ -904,6 +914,12 @@ pointer-events:all;
 
 
 @media (min-width: 775px){
+
+  .whyus-container{
+    position: relative;
+    left:unset;
+  }
+
   .logo> img{
     width: 70%;
   }
@@ -934,11 +950,12 @@ pointer-events:all;
       margin: 100px;
      }
    .whyus-container{
-    max-width: unset;
+   
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+
    }
    
 

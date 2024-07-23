@@ -62,6 +62,40 @@ function sendMail(){
     emailjs.send("service_yjski0b","template_2nniwhe",params).then(alert("Hey..Email Sent"))
 }
 
+
+
+
+
+
+
+
+
+
+
+
+        const name= document.getElementById("name");
+        const email= document.getElementById("email");
+        const message= document.getElementById("message");
+
+
+
+
+
+
+        const submit=document.getElementById("submit");
+
+//    if(name.value=="" || email.value=="" ){
+//         submit.classList.add('noval');
+//    }
+
+
+
+
+
+
+
+
+
 // const form=document.querySelector('form');
 // const nameInp=document.getElementById('name');
 // const emailInp=document.getElementById('email');
